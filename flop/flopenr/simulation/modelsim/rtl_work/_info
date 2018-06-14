@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CIRCUITOS\flopenr\simulation\modelsim
+Eflopenr
+Z1 w1524232614
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\CIRCUITOS\flopenr\simulation\modelsim
+Z5 8D:/CIRCUITOS/flopenr/flopenr.vhd
+Z6 FD:/CIRCUITOS/flopenr/flopenr.vhd
+l0
+L3
+VCbACmekB_YR9KW0Dn3z0;3
+Z7 OV;C;10.0c;49
+31
+Z8 !s108 1524859295.478000
+Z9 !s90 -reportprogress|300|-93|-work|work|D:/CIRCUITOS/flopenr/flopenr.vhd|
+Z10 !s107 D:/CIRCUITOS/flopenr/flopenr.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 ^FlngAP?36ENLG8E6nnoT3
+Aasynchronous
+R2
+R3
+DEx4 work 7 flopenr 0 22 CbACmekB_YR9KW0Dn3z0;3
+l13
+L11
+V^O7BEJdI=DX]=IoQ_7Vlc2
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 bkkUnI7>:i0?hiNBV4SY]0
+Etestbench_flopenr
+Z13 w1524858974
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z15 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z16 8D:/CIRCUITOS/flopenr/testbench/testbench_flopenr.vhd
+Z17 FD:/CIRCUITOS/flopenr/testbench/testbench_flopenr.vhd
+l0
+L7
+VmTJd4lR_4]A=o<^dUA9z31
+!s100 XnCZCnchBWWYRMF]i1RCo1
+R7
+31
+Z18 !s108 1524859296.354000
+Z19 !s90 -reportprogress|300|-93|-work|work|D:/CIRCUITOS/flopenr/testbench/testbench_flopenr.vhd|
+Z20 !s107 D:/CIRCUITOS/flopenr/testbench/testbench_flopenr.vhd|
+R11
+R12
+Asim
+R14
+R15
+R2
+R3
+DEx4 work 17 testbench_flopenr 0 22 mTJd4lR_4]A=o<^dUA9z31
+l25
+L11
+VU=U8[LlKGPVfQm:cg^I692
+!s100 k6ghHUa3>FC:Ao=XbVAM70
+R7
+31
+R18
+R19
+R20
+R11
+R12

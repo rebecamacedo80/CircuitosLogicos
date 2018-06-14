@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CIRCUITOS\tenaytafdafdradvybfporra\simulation\modelsim
+Ecla16
+Z1 w1528680744
+Z2 DPx4 ieee 16 vital_primitives 0 22 E9g6AWKAc2T]enMfl94If3
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 ^b]h7<:P=[Wke=Uj5D@Y71
+Z4 DPx4 ieee 12 vital_timing 0 22 OBWK>;kUYmkG<OChK2lhV1
+Z5 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 DPx9 cycloneii 20 cycloneii_components 0 22 Ee5;nF>::XbgUE[nGVeKZ0
+Z7 8cla16.vho
+Z8 Fcla16.vho
+l0
+L34
+VD`i1NV[7lXf>IWGEb1MgQ0
+Z9 OV;C;6.5b;42
+31
+Z10 o-93 -work work -O0
+Z11 tExplicit 1
+!s100 e;;cjSH@;akfG_cHJoiW?0
+Astructure
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 cla16 0 22 D`i1NV[7lXf>IWGEb1MgQ0
+l195
+L100
+V7kl<I53JU[[>FzbUVD2Ni2
+R9
+31
+Mx5 9 cycloneii 20 cycloneii_components
+Z12 Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 12 vital_timing
+Mx2 9 cycloneii 19 cycloneii_atom_pack
+Mx1 4 ieee 16 vital_primitives
+R10
+R11
+!s100 XDf^z_?VoASzzMSQC[=;:3
+Etestbench_cla16
+Z13 w1528682416
+Z14 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z15 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z16 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R5
+Z17 8E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+Z18 FE:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+l0
+L7
+V^Rd4NNc[OE9ozD6hzEff@2
+!s100 dmog94N@z5]gFV2f`CMe_0
+R9
+31
+R10
+R11
+Asim
+R14
+R15
+R16
+R5
+DEx4 work 15 testbench_cla16 0 22 ^Rd4NNc[OE9ozD6hzEff@2
+l33
+L10
+VA_Gb9<0SW8@R_iJ@0i7K^0
+!s100 _zVzk@YN1<D4Y[]lKdJZj1
+R9
+31
+R12
+Mx3 4 ieee 15 std_logic_arith
+Mx2 4 ieee 18 std_logic_unsigned
+Z19 Mx1 3 std 6 textio
+R10
+R11

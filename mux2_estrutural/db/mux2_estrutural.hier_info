@@ -1,0 +1,52 @@
+|mux2_estrutural
+d0[0] => tristate:topTristate.a[0]
+d0[1] => tristate:topTristate.a[1]
+d0[2] => tristate:topTristate.a[2]
+d0[3] => tristate:topTristate.a[3]
+d1[0] => tristate:bottomTristate.a[0]
+d1[1] => tristate:bottomTristate.a[1]
+d1[2] => tristate:bottomTristate.a[2]
+d1[3] => tristate:bottomTristate.a[3]
+s => inversor:sInversor.a
+s => tristate:bottomTristate.en
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux2_estrutural|inversor:sInversor
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux2_estrutural|tristate:topTristate
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux2_estrutural|tristate:bottomTristate
+a[0] => y[0].DATAIN
+a[1] => y[1].DATAIN
+a[2] => y[2].DATAIN
+a[3] => y[3].DATAIN
+en => y[0].OE
+en => y[1].OE
+en => y[2].OE
+en => y[3].OE
+y[0] <= y[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y[1].DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y[2].DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

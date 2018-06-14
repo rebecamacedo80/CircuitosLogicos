@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\CIRCUITOS\adder\simulation\modelsim
+Eadder
+Z1 w1526671516
+Z2 DPx4 ieee 11 numeric_std 0 22 k7B<7GmYYYmX;0X]XHFD10
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z4 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z5 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dD:\CIRCUITOS\adder\simulation\modelsim
+Z8 8D:/CIRCUITOS/adder/adder.vhd
+Z9 FD:/CIRCUITOS/adder/adder.vhd
+l0
+L8
+VbU1zoSb<EKGW[7nFClI163
+Z10 OV;C;10.0c;49
+31
+Z11 !s108 1526671938.260000
+Z12 !s90 -reportprogress|300|-93|-work|work|D:/CIRCUITOS/adder/adder.vhd|
+Z13 !s107 D:/CIRCUITOS/adder/adder.vhd|
+Z14 o-93 -work work -O0
+Z15 tExplicit 1
+!s100 H5EV298WRSFVF=V>[D3Yn3
+Asynth
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 adder 0 22 bU1zoSb<EKGW[7nFClI163
+l19
+L16
+VQmjnB_h3<3nO>jW0L5VP40
+R10
+31
+R11
+R12
+R13
+R14
+R15
+!s100 aYKUX[lSj`Hbf<ID<T>:O3
+Etestbench_adder
+Z16 w1526670612
+R3
+R4
+R5
+R6
+R7
+Z17 8D:/CIRCUITOS/adder/testbench/testbench_adder.vhd
+Z18 FD:/CIRCUITOS/adder/testbench/testbench_adder.vhd
+l0
+L7
+VVILlN^X:6Zk]eKA6JbmMf3
+!s100 om54>LBb_4<YAcH=cY^b?3
+R10
+31
+Z19 !s108 1526671939.262000
+Z20 !s90 -reportprogress|300|-93|-work|work|D:/CIRCUITOS/adder/testbench/testbench_adder.vhd|
+Z21 !s107 D:/CIRCUITOS/adder/testbench/testbench_adder.vhd|
+R14
+R15
+Asim
+R3
+R4
+R5
+R6
+DEx4 work 15 testbench_adder 0 22 VILlN^X:6Zk]eKA6JbmMf3
+l28
+L11
+V50[dmeBoPnVk>h4cCoG>23
+!s100 U<hG?QLo]Q[gYG8cdb<cZ2
+R10
+31
+R19
+R20
+R21
+R14
+R15

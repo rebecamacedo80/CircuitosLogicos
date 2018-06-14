@@ -1,0 +1,108 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aluno\Desktop\circuitos\mux4_estrutural\simulation\modelsim
+Emux2
+Z1 w1522978286
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\aluno\Desktop\circuitos\mux4_estrutural\simulation\modelsim
+Z5 8C:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux2.vhd
+Z6 FC:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux2.vhd
+l0
+L3
+Vb30ZUzL[bSG1aeKOA3_a82
+Z7 OV;C;10.0c;49
+31
+Z8 !s108 1523644247.302000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux2.vhd|
+Z10 !s107 C:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux2.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 >36m@;JAS9kdl<40AEi?k0
+Asynth
+R2
+R3
+DEx4 work 4 mux2 0 22 b30ZUzL[bSG1aeKOA3_a82
+l10
+L9
+VH0=COiaOCLRWiN1Q61[[J0
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 3JdN3h_W7Vccc:FmY[70@3
+Emux4_estrutural
+Z13 w1523642231
+R2
+R3
+R4
+Z14 8C:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux4_estrutural.vhd
+Z15 FC:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux4_estrutural.vhd
+l0
+L3
+VTnYoka1i]@IZSLUU6W63E1
+R7
+31
+Z16 !s108 1523644247.365000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux4_estrutural.vhd|
+Z18 !s107 C:/Users/aluno/Desktop/circuitos/mux4_estrutural/mux4_estrutural.vhd|
+R11
+R12
+!s100 l02C@mdCDVFJK<OcW6oa73
+Astruct
+R2
+R3
+DEx4 work 15 mux4_estrutural 0 22 TnYoka1i]@IZSLUU6W63E1
+l18
+L10
+V]bjAT8D1Ue7niPnWETa=O2
+R7
+31
+R16
+R17
+R18
+R11
+R12
+!s100 :fjn85zBzXEVDO4I99z941
+Etestbench_mux4
+Z19 w1523644235
+Z20 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z21 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+R2
+R3
+R4
+Z22 8C:/Users/aluno/Desktop/circuitos/mux4_estrutural/testbench/testbench_mux4.vhd
+Z23 FC:/Users/aluno/Desktop/circuitos/mux4_estrutural/testbench/testbench_mux4.vhd
+l0
+L7
+VMzoh6`ETMMgH]0oY8iQ;g3
+!s100 2W88UIJoSJNhVEHZHI8CK2
+R7
+31
+Z24 !s108 1523644247.427000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/aluno/Desktop/circuitos/mux4_estrutural/testbench/testbench_mux4.vhd|
+Z26 !s107 C:/Users/aluno/Desktop/circuitos/mux4_estrutural/testbench/testbench_mux4.vhd|
+R11
+R12
+Asim
+R20
+R21
+R2
+R3
+DEx4 work 14 testbench_mux4 0 22 Mzoh6`ETMMgH]0oY8iQ;g3
+l26
+L11
+VD@>G9S0PNUiX587EJX0`>2
+!s100 T2:H<GaoN^C?6lAd]Tzac1
+R7
+31
+R24
+R25
+R26
+R11
+R12

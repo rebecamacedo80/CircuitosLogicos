@@ -1,0 +1,17 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vcom -93 -work work {vuaparalela.vho}
+
+vcom -93 -work work {E:/CircuitoLógicoAula/Projetos_CL/VUA Paralela/testbench/testbench_vuaparalela.vhd}
+
+vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=vuaparalela_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc"  testbench_vuaparalela
+
+add wave *
+view structure
+view signals
+run -all

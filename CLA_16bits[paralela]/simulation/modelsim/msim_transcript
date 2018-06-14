@@ -1,0 +1,1463 @@
+# Reading C:/altera/91/modelsim_ase/tcl/vsim/pref.tcl 
+# do cla16_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {cla16.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity cla16
+# -- Compiling architecture structure of cla16
+# 
+# vcom -93 -work work {E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_cla16
+# -- Compiling architecture sim of testbench_cla16
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=cla16_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_cla16
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=cla16_vhd.sdo -t 1ps testbench_cla16 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_cla16(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.cla16(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading instances from cla16_vhd.sdo
+# Loading timing data from cla16_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_cla16  File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(0) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(1) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(2) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(3) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(5) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(6) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(7) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(8) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(9) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(10) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(11) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(12) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(13) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(14) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(15) ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado cout_expected ='0'Valor Obtido: cout ='X'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 25 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 40 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 55 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 70 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 70 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 70 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 70 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 70 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 85 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 100 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 115 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 130 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 130 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 130 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 130 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 130 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 130 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 145 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 160 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 175 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 190 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 190 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 190 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 190 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 190 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 190 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 13. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 13. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 13. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 13. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 13. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 205 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 220 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 220 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 220 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 220 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 220 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 235 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 265 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='1'Valor Obtido: s(1) ='0'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 280 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 19. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 19. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 19. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 19. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 295 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 310 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 21. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 21. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 21. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 21. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 325 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 340 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 23. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 355 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 23. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 355 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 23. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 355 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 23. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 355 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 370 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 25. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 385 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 25. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 385 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 25. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 385 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 25. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 385 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 25. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 385 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 400 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 400 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 400 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 400 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 400 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 400 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 415 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 430 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 430 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 430 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 430 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 430 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 430 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 445 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 30. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 460 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 30. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 460 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 30. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 460 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 30. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 460 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(1) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 31. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 475 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 32. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 490 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 32. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 490 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 520 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 520 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 520 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 520 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 520 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 535 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 550 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 550 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 550 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 550 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 550 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 565 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 580 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 580 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 580 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 580 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 595 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 610 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 625 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 640 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 655 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 655 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 655 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 655 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 655 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 670 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 45. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 45. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 45. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 45. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 45. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 685 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 700 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 700 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 700 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 700 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 700 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 715 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(15) ='1'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 730 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 745 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='1'Valor Obtido: s(1) ='0'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 51. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 775 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 51. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 775 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 51. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 775 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 51. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 775 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 790 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 53. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 53. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 53. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 53. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 805 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 820 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 55. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 835 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 55. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 835 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 55. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 835 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 55. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 835 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 850 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 57. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 57. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 57. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 57. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 57. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 865 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 880 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='1'Valor Obtido: s(5) ='0'
+#    Time: 880 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='0'Valor Obtido: s(7) ='1'
+#    Time: 880 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 880 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 880 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 880 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='0'Valor Obtido: s(0) ='1'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='1'Valor Obtido: s(3) ='0'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='1'Valor Obtido: s(10) ='0'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 895 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='0'Valor Obtido: s(3) ='1'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 910 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(3) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(10) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='1'Valor Obtido: s(14) ='0'
+#    Time: 925 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='1'Valor Obtido: s(2) ='0'
+#    Time: 940 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='1'Valor Obtido: s(3) ='0'
+#    Time: 940 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 940 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 940 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 940 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 940 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='1'Valor Obtido: s(0) ='0'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(1) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(2) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 63. Esperado s_expected ='1'Valor Obtido: s(15) ='0'
+#    Time: 955 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Failure: 64tests completed, errors = 1031
+#    Time: 955 ns  Iteration: 1  Process: /testbench_cla16/line__82 File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 112
+# Simulation Breakpoint: Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 112
+# MACRO ./cla16_run_msim_gate_vhdl.do PAUSED at line 17
+do cla16_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {cla16.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity cla16
+# -- Compiling architecture structure of cla16
+# 
+# vcom -93 -work work {E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_cla16
+# -- Compiling architecture sim of testbench_cla16
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=cla16_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_cla16
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=cla16_vhd.sdo -t 1ps testbench_cla16 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_cla16(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.cla16(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading instances from cla16_vhd.sdo
+# Loading timing data from cla16_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_cla16  File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(6) ='X'
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(8) ='X'
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(11) ='X'
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado s_expected ='0'Valor Obtido: s(12) ='X'
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 0. Esperado cout_expected ='0'Valor Obtido: cout ='X'
+#    Time: 12 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 1. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 29 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 46 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 46 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 2. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 46 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 63 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 3. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 63 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 80 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 4. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 80 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 97 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 97 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 97 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 5. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 97 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 114 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 114 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 6. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 114 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 131 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 7. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 131 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 148 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 8. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 148 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 9. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 165 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 182 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 10. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 182 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 199 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 199 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 11. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 199 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 216 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 12. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 216 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 13. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 233 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 14. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 250 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 267 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 15. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 267 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 284 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 284 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 284 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 284 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 16. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 284 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 301 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 17. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 301 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 318 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 318 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 18. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 318 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 19. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 335 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 19. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 335 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 352 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 20. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 352 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 21. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 369 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 21. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 369 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 386 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 22. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 386 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 23. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 403 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 23. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 403 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 420 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 420 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 420 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 420 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 24. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 420 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 25. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 437 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 454 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 26. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 454 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 471 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 471 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 471 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 27. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 471 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 488 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 488 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 28. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 488 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 29. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 505 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 30. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 522 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 30. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 522 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 573 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 33. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 573 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 590 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 590 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 34. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 590 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 607 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 35. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 607 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 624 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 36. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 624 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 641 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 641 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 641 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 37. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 641 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 658 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 658 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 38. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 658 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 675 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 39. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 675 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 692 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 40. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 692 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 709 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 709 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 41. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 709 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 726 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 42. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 726 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 743 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 743 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 43. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 743 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 44. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 760 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 45. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 777 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 794 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 46. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 794 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 811 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 47. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 811 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 828 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 828 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 828 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado s_expected ='0'Valor Obtido: s(13) ='1'
+#    Time: 828 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 48. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 828 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 845 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 49. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 845 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 862 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 862 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 50. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 862 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 51. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 879 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 51. Esperado s_expected ='1'Valor Obtido: s(11) ='0'
+#    Time: 879 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 896 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 52. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 896 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 53. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 913 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 53. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 913 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 930 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 54. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 930 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 55. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 947 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 55. Esperado s_expected ='1'Valor Obtido: s(9) ='0'
+#    Time: 947 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 964 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 964 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 964 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado s_expected ='0'Valor Obtido: s(14) ='1'
+#    Time: 964 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 56. Esperado cout_expected ='1'Valor Obtido: cout ='0'
+#    Time: 964 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 57. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 981 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 998 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 58. Esperado s_expected ='1'Valor Obtido: s(13) ='0'
+#    Time: 998 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 1015 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='1'Valor Obtido: s(8) ='0'
+#    Time: 1015 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 1015 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 59. Esperado cout_expected ='0'Valor Obtido: cout ='1'
+#    Time: 1015 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='1'Valor Obtido: s(6) ='0'
+#    Time: 1032 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 1032 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 60. Esperado s_expected ='0'Valor Obtido: s(12) ='1'
+#    Time: 1032 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(5) ='1'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='1'Valor Obtido: s(7) ='0'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(9) ='1'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(11) ='1'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='1'Valor Obtido: s(12) ='0'
+#    Time: 1049 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='0'Valor Obtido: s(4) ='1'
+#    Time: 1066 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 1066 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Error: Vetor deu erro n. Teste: 62. Esperado s_expected ='0'Valor Obtido: s(8) ='1'
+#    Time: 1066 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Failure: 64tests completed, errors = 985
+#    Time: 1083 ns  Iteration: 1  Process: /testbench_cla16/line__82 File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 112
+# Simulation Breakpoint: Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 112
+# MACRO ./cla16_run_msim_gate_vhdl.do PAUSED at line 17
+do cla16_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {cla16.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity cla16
+# -- Compiling architecture structure of cla16
+# 
+# vcom -93 -work work {E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_cla16
+# -- Compiling architecture sim of testbench_cla16
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=cla16_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_cla16
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=cla16_vhd.sdo -t 1ps testbench_cla16 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_cla16(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.cla16(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading instances from cla16_vhd.sdo
+# Loading timing data from cla16_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_cla16  File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 61. Esperado s_expected ='0'Valor Obtido: s(6) ='1'
+#    Time: 1173 ns  Iteration: 1  Instance: /testbench_cla16
+# ** Failure: 64tests completed, errors = 16
+#    Time: 1211 ns  Iteration: 1  Process: /testbench_cla16/line__82 File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 112
+# Simulation Breakpoint: Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 112
+# MACRO ./cla16_run_msim_gate_vhdl.do PAUSED at line 17
+do cla16_run_msim_gate_vhdl.do
+# transcript on
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {cla16.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity cla16
+# -- Compiling architecture structure of cla16
+# 
+# vcom -93 -work work {E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_cla16
+# -- Compiling architecture sim of testbench_cla16
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=cla16_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_cla16
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=cla16_vhd.sdo -t 1ps testbench_cla16 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_cla16(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.cla16(structure)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading instances from cla16_vhd.sdo
+# Loading timing data from cla16_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_cla16  File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Failure: Just kidding -- 64tests completed successfully.
+#    Time: 1275 ns  Iteration: 1  Process: /testbench_cla16/line__82 File: E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd
+# Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 107
+# Simulation Breakpoint: Break in Process line__82 at E:/CIRCUITOS/tenaytafdafdradvybfporra/testbench/testbench_cla16.vhd line 107
+# MACRO ./cla16_run_msim_gate_vhdl.do PAUSED at line 17

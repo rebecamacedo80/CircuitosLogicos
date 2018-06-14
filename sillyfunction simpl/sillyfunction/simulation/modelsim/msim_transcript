@@ -1,0 +1,81 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do sillyfunction_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {sillyfunction.vho}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package stratixii_atom_pack
+# -- Loading package stratixii_components
+# -- Compiling entity sillyfunction
+# -- Compiling architecture structure of sillyfunction
+# 
+# vcom -93 -work work {D:/CIRCUITOS/Lab2Circuitos/sillyfunction/../testbench/testbench_sillyfunction.vhd}
+# Model Technology ModelSim ALTERA vcom 10.0c Compiler 2011.09 Sep 21 2011
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_textio
+# -- Compiling entity testbench_sillyfunction
+# -- Compiling architecture sim of testbench_sillyfunction
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=sillyfunction_vhd.sdo -L stratixii -L gate_work -L work -voptargs="+acc" testbench_sillyfunction
+# vsim +transport_int_delays +transport_path_delays -L stratixii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=sillyfunction_vhd.sdo -t 1ps testbench_sillyfunction 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.testbench_sillyfunction(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading stratixii.stratixii_atom_pack(body)
+# Loading stratixii.stratixii_components
+# Loading work.sillyfunction(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading stratixii.stratixii_io(structure)
+# Loading stratixii.stratixii_io_register(vital_io_reg)
+# Loading stratixii.stratixii_io_latch(vital_io_latch)
+# Loading stratixii.stratixii_and1(altvital)
+# Loading stratixii.stratixii_mux21(altvital)
+# Loading stratixii.stratixii_asynch_io(behave)
+# Loading stratixii.stratixii_lcell_comb(vital_lcell_comb)
+# Loading instances from sillyfunction_vhd.sdo
+# Loading timing data from sillyfunction_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_sillyfunction File: D:/CIRCUITOS/Lab2Circuitos/sillyfunction/../testbench/testbench_sillyfunction.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Failure: NO ERRORS -- 8 tests completed successfully.
+#    Time: 130 ns  Iteration: 1  Process: /testbench_sillyfunction/line__27 File: D:/CIRCUITOS/Lab2Circuitos/sillyfunction/../testbench/testbench_sillyfunction.vhd
+# Break in Process line__27 at D:/CIRCUITOS/Lab2Circuitos/sillyfunction/../testbench/testbench_sillyfunction.vhd line 59
+# Simulation Breakpoint: Break in Process line__27 at D:/CIRCUITOS/Lab2Circuitos/sillyfunction/../testbench/testbench_sillyfunction.vhd line 59
+# MACRO ./sillyfunction_run_msim_gate_vhdl.do PAUSED at line 17
+add list  \
+sim:/testbench_sillyfunction/a
+add list  \
+sim:/testbench_sillyfunction/b
+add list  \
+sim:/testbench_sillyfunction/c
+add list  \
+sim:/testbench_sillyfunction/y
+add list  \
+sim:/testbench_sillyfunction/y_expected
+add list  \
+sim:/testbench_sillyfunction/clk

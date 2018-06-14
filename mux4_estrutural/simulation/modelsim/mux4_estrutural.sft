@@ -1,0 +1,4 @@
+set tool_name "ModelSim-Altera (VHDL)"
+set corner_file_list {
+	{{"Slow Model"} {mux4_estrutural.vho mux4_estrutural_vhd.sdo}}
+}

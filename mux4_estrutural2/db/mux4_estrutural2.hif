@@ -1,0 +1,188 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+904
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+mux4_estrutural2
+# storage
+db|mux4_estrutural2.(0).cnf
+db|mux4_estrutural2.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux4_estrutural.vhd
+566121f466e8b7446bada7dccee219cc
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+c:|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+mux2_estrutural
+# storage
+db|mux4_estrutural2.(1).cnf
+db|mux4_estrutural2.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+mux2_estrutural.vhd
+a74301d8b9d2c8b36f0673ef76262d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(d0)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(d1)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux2_estrutural:lowmux
+mux2_estrutural:highmux
+mux2_estrutural:finalmux
+}
+# lmf
+c:|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+inversor
+# storage
+db|mux4_estrutural2.(2).cnf
+db|mux4_estrutural2.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+inversor.vhd
+4a15a38399f2ea227b967c180a864dd
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+mux2_estrutural:lowmux|inversor:sInversor
+mux2_estrutural:highmux|inversor:sInversor
+mux2_estrutural:finalmux|inversor:sInversor
+}
+# lmf
+c:|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+tristate
+# storage
+db|mux4_estrutural2.(3).cnf
+db|mux4_estrutural2.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+tristate.vhd
+aaf0ef7dfcc4bd525a913fb31992ced
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(a)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+mux2_estrutural:lowmux|tristate:topTristate
+mux2_estrutural:lowmux|tristate:bottomTristate
+mux2_estrutural:highmux|tristate:topTristate
+mux2_estrutural:highmux|tristate:bottomTristate
+mux2_estrutural:finalmux|tristate:topTristate
+mux2_estrutural:finalmux|tristate:bottomTristate
+}
+# lmf
+c:|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

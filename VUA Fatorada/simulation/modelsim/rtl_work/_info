@@ -1,0 +1,75 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\aluno\Desktop\CL-master\VUA Fatorada\simulation\modelsim
+Etestbench_vuafatorada
+Z1 w1528400608
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\aluno\Desktop\CL-master\VUA Fatorada\simulation\modelsim
+Z7 8C:/Users/aluno/Desktop/CL-master/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+Z8 FC:/Users/aluno/Desktop/CL-master/VUA Fatorada/testbench/testbench_vuafatorada.vhd
+l0
+L7
+V834<6DOJ7OZOdnGO<i;CN2
+!s100 L?>ULMV4iGe@b<LIUQlg[1
+Z9 OV;C;10.0c;49
+31
+Z10 !s108 1528400847.735000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/aluno/Desktop/CL-master/VUA Fatorada/testbench/testbench_vuafatorada.vhd|
+Z12 !s107 C:/Users/aluno/Desktop/CL-master/VUA Fatorada/testbench/testbench_vuafatorada.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+Asim
+R2
+R3
+R4
+R5
+DEx4 work 21 testbench_vuafatorada 0 22 834<6DOJ7OZOdnGO<i;CN2
+l28
+L9
+V5P8BFg[RCfTGhk;Po^zY;0
+!s100 ?@<9Zz5gATZ@[O_7]jOAI3
+R9
+31
+R10
+R11
+R12
+R13
+R14
+Evuafatorada
+Z15 w1528400369
+R4
+R5
+R6
+Z16 8C:/Users/aluno/Desktop/CL-master/VUA Fatorada/vuafatorada.vhd
+Z17 FC:/Users/aluno/Desktop/CL-master/VUA Fatorada/vuafatorada.vhd
+l0
+L3
+VhJVXf9Lol8_Yfc?<RJ=3[3
+R9
+31
+Z18 !s108 1528400847.605000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/aluno/Desktop/CL-master/VUA Fatorada/vuafatorada.vhd|
+Z20 !s107 C:/Users/aluno/Desktop/CL-master/VUA Fatorada/vuafatorada.vhd|
+R13
+R14
+!s100 Y9J[fLYFWf68IIjz_3L2D3
+Asynth
+R4
+R5
+DEx4 work 11 vuafatorada 0 22 hJVXf9Lol8_Yfc?<RJ=3[3
+l11
+L10
+V[Mg:>[;dWU[k6lX??kkA?2
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 Q_lljKTI96XcPPRbIUcjk3

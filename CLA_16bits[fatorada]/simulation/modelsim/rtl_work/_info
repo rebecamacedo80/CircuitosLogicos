@@ -1,0 +1,139 @@
+m255
+K3
+13
+cModel Technology
+Z0 dE:\CIRCUITOS\ProjetoFinal\CLA_16bits[fatorada]\simulation\modelsim
+Ecla16
+Z1 w1528483156
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 8E:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/cla16.vhd
+Z4 FE:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/cla16.vhd
+l0
+L3
+V]jo5XV:L`^gmmDe;lYCm53
+Z5 OV;C;6.5b;42
+31
+Z6 o-93 -work work -O0
+Z7 tExplicit 1
+!s100 naTeJZ1Yc]Z1LGP_=GD4O3
+Astruct
+R2
+DEx4 work 5 cla16 0 22 ]jo5XV:L`^gmmDe;lYCm53
+l30
+L11
+V4MHVfOI`S<5Q`PShIbOTN0
+R5
+31
+Z8 Mx1 4 ieee 14 std_logic_1164
+R6
+R7
+!s100 UJ<RE3Ua[38a3m45^ede01
+Ecla4_fatorada
+Z9 w1528482320
+R2
+Z10 8E:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/cla4_fatorada.vhd
+Z11 FE:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/cla4_fatorada.vhd
+l0
+L3
+VBOO<b03:>TSE^[H:eR=e90
+R5
+31
+R6
+R7
+!s100 cLAM_WAGL_Nj53OJFCX4C3
+Astruct
+R2
+DEx4 work 13 cla4_fatorada 0 22 BOO<b03:>TSE^[H:eR=e90
+l28
+L10
+V:d40;5oPTFlnZk1@LPam=1
+R5
+31
+R8
+R6
+R7
+!s100 1:F<?7VX;ceNWNl@<GBZ43
+Efulladder_pg
+Z12 w1528460440
+R2
+Z13 8E:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/fulladder_pg.vhd
+Z14 FE:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/fulladder_pg.vhd
+l0
+L3
+V`@_d<YP6OjfA30Og>MBNU3
+R5
+31
+R6
+R7
+!s100 9jMIm8=R[>MHFN6eHWi_?3
+Asynth
+R2
+DEx4 work 12 fulladder_pg 0 22 `@_d<YP6OjfA30Og>MBNU3
+l11
+L9
+VKN<;b:ih>k_j;NAYZ`0EM0
+R5
+31
+R8
+R6
+R7
+!s100 `3QbeSJgG>5[D=M_UV0Y60
+Etestbench_cla16
+Z15 w1528484090
+Z16 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z17 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z18 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R2
+Z19 8E:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/testbench/testbench_cla16.vhd
+Z20 FE:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/testbench/testbench_cla16.vhd
+l0
+L7
+V^Rd4NNc[OE9ozD6hzEff@2
+!s100 dmog94N@z5]gFV2f`CMe_0
+R5
+31
+R6
+R7
+Asim
+R16
+R17
+R18
+R2
+DEx4 work 15 testbench_cla16 0 22 ^Rd4NNc[OE9ozD6hzEff@2
+l33
+L10
+VGmofm><>O3X`nTa^=_;TQ1
+!s100 5jYCHL]2Plc]nE>l9S?Sd3
+R5
+31
+Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 15 std_logic_arith
+Mx2 4 ieee 18 std_logic_unsigned
+Z21 Mx1 3 std 6 textio
+R6
+R7
+Evuafatorada
+Z22 w1528483242
+R2
+Z23 8E:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/vuafatorada.vhd
+Z24 FE:/CIRCUITOS/ProjetoFinal/CLA_16bits[fatorada]/vuafatorada.vhd
+l0
+L3
+V<RFfic4<:MJXVomOGfL;71
+R5
+31
+R6
+R7
+!s100 Fe]4`5C=JeX[gnJ]H9[B30
+Asynth
+R2
+DEx4 work 11 vuafatorada 0 22 <RFfic4<:MJXVomOGfL;71
+l11
+L10
+VXKYJ7fGzS1T7G0kXo8hi^1
+R5
+31
+R8
+R6
+R7
+!s100 nKh>>gTH8KLK40lZXS65k2

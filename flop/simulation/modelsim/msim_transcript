@@ -1,0 +1,92 @@
+# Reading C:/altera/91sp2/modelsim_ase/tcl/vsim/pref.tcl 
+# do flop_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\91sp2\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {flop.vho}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package vital_timing
+# -- Loading package vital_primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity flop
+# -- Compiling architecture structure of flop
+# 
+# vcom -93 -work work {F:/CIRCUITOS/flop/testbench/testbench_flop.vhd}
+# Model Technology ModelSim ALTERA vcom 6.5b Compiler 2009.10 Oct  1 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package textio
+# -- Compiling entity testbench_flop
+# -- Compiling architecture sim of testbench_flop
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -sdftyp /dut=flop_vhd.sdo -L cycloneii -L gate_work -L work -voptargs="+acc" testbench_flop
+# vsim +transport_int_delays +transport_path_delays -L cycloneii -L gate_work -L work -voptargs=\"+acc\" -sdftyp /dut=flop_vhd.sdo -t 1ps testbench_flop 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading std.textio(body)
+# Loading work.testbench_flop(sim)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneii.cycloneii_atom_pack(body)
+# Loading cycloneii.cycloneii_components
+# Loading work.flop(structure)
+# Loading cycloneii.cycloneii_io(structure)
+# Loading cycloneii.cycloneii_mux21(altvital)
+# Loading cycloneii.cycloneii_dffe(behave)
+# Loading cycloneii.cycloneii_asynch_io(behave)
+# Loading cycloneii.cycloneii_clkctrl(vital_clkctrl)
+# Loading cycloneii.cycloneii_ena_reg(behave)
+# Loading cycloneii.cycloneii_lcell_comb(vital_lcell_comb)
+# Loading cycloneii.cycloneii_lcell_ff(vital_lcell_ff)
+# Loading cycloneii.cycloneii_and1(altvital)
+# Loading instances from flop_vhd.sdo
+# Loading timing data from flop_vhd.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Region: /testbench_flop  File: F:/CIRCUITOS/flop/testbench/testbench_flop.vhd
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body
+# run -all
+# ** Error: Vetor deu erro n. Teste: 0. Esperado qesp ='U'Valor Obtido: q(0) ='0'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Error: Vetor deu erro n. Teste: 0. Esperado qesp ='U'Valor Obtido: q(1) ='0'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Error: Vetor deu erro n. Teste: 0. Esperado qesp ='U'Valor Obtido: q(2) ='0'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Error: Vetor deu erro n. Teste: 0. Esperado qesp ='U'Valor Obtido: q(3) ='0'
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /testbench_flop
+# ** Failure: 4tests completed, errors = 4
+#    Time: 55 ns  Iteration: 1  Process: /testbench_flop/line__76 File: F:/CIRCUITOS/flop/testbench/testbench_flop.vhd
+# Break in Process line__76 at F:/CIRCUITOS/flop/testbench/testbench_flop.vhd line 98
+# Simulation Breakpoint: Break in Process line__76 at F:/CIRCUITOS/flop/testbench/testbench_flop.vhd line 98
+# MACRO ./flop_run_msim_gate_vhdl.do PAUSED at line 17
+add list \
+{sim:/testbench_flop/ck } \
+{sim:/testbench_flop/d } \
+{sim:/testbench_flop/q } \
+{sim:/testbench_flop/qexpected } 
